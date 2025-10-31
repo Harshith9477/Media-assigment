@@ -1,0 +1,182 @@
+<style>
+.wel{
+    font-style: italic;
+}
+.text{
+    text-align: center;
+    text-shadow: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(60, 86, 50);
+    position: initial;
+}
+.text2{
+    font-size: 20px;
+}
+.my-box {
+  width: 300px; 
+  padding: 20px;
+  border: 5px solid rgb(57, 34, 6);
+  margin: 25px;
+  background-color: rgb(59, 200, 247);
+  box-sizing: border-box;
+}
+.img{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+}
+<style>
+     
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+       
+        form {
+            background-color: #ffffff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width:50%;
+            max-width: 400px;
+        }
+
+      
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1.5em;
+        }
+
+       
+        form div {
+            margin-bottom: 13px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 50%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /
+            font-size: 16px;
+        }
+        
+       
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+
+      
+        input[type="submit"] {
+            width: 50%;
+            padding: 6px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+            
+        }
+.p2{
+    color: blue;
+}
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+  background-color: #5bacfe;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad Titans</title>
+</head>
+<body>
+
+    <h1 class="wel">Welcome to Squad Titans</h1>
+   <p class="text"><span class="highlight">A collaborative squad working on frontend magic!</span> </p>
+    <img class="img" src="https://img.freepik.com/free-photo/businessmen-working-together_1156-616.jpg?semt=ais_hybrid&w=740&q=80" alt="squad">
+
+    <h2 class="wel">🧠 Squad Info</h2>
+    <p class="text2">Squad Titans is a group of 5 frontend web developers learning and building together. We collaborate, innovate, and build awesome projects using HTML, CSS, and Git!</p>
+
+    <h2 class="wel">🚀 Projects in Progress</h2>
+    <div class="my-box">Hello, Box Model!
+    <ul>
+        <li>Squad Portfolio Website</li>
+        <li>Responsive Zoo Page</li>
+        <li>Kalvium Feedback Form</li>
+    </ul></div>
+    <h2 class="wel">👥 Meet the Squad</h2>
+    <ul>
+        <li><a href="tej.html">Tej (Team Lead)</a></li>
+        <li><a href="Bhaskar.html">Bhaskar (Designer)</a></li>
+        <li><a href="harshith.html">harshith (Content Writer)</a></li>
+    </ul>
+<p class="p2">Social Media Coordinator needed intrested participant fill the above form</p>
+ <form action="/submit-feedback" method="post">
+        <h1>Contact Us</h1>
+        
+        <div>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div>
+            <label for="user-email">Email:</label>
+            <input type="email" id="user-email" name="user_email" required>
+        </div>
+        
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit Feedback">
+        </div>
+        
+    </form>
+
+    <hr>
+<footer>
+        <p class="wel">Made with ❤️ by Squad Titans | Phase 1</p>
+    </footer>
+</body>
+</html>
